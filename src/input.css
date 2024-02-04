@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "Peyda";
+      src: url(../public/font/PeydaFaNum-Medium.ttf);
+      font-display: swap;
+    }
+    @font-face {
+        font-family: "PeydaBold";
+        src: url(../public/font/PeydaFaNum-Bold.ttf);
+        font-display: swap;
+      }
+}
